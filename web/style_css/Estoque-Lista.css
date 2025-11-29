@@ -1,0 +1,127 @@
+/* 
+    UMC - Universidade Mogi Das Cruzes
+    Author     : Danilo zaghi curan RGM: 11241104139
+                 Lucas Flamini Santos RGM: 11241104080
+                 Raynan Maciel Oliveira RGM: 11241101964
+
+    Professor: Adilson Lima da Silva
+
+    Projeto: SIV - Sistema Integrado de Vendas
+                 
+*/
+
+
+body {
+    background: #0a0e14;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #e2e8eb;
+    margin: 0;
+    padding: 40px;
+}
+
+.estoque-container {
+    background: #0c1118; 
+    padding: 30px 35px;
+    border-radius: 12px;
+    border: 1px solid rgba(77, 163, 255, 0.35);
+    box-shadow:
+        0 0 20px rgba(0, 140, 255, 0.05),
+        0 0 35px rgba(0, 140, 255, 0.04);
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4da3ff;
+    text-shadow:
+        0 0 8px rgba(77,163,255,0.45),
+        0 0 14px rgba(77,163,255,0.25);
+}
+
+.card {
+    background: #14171c !important;
+    border: 1px solid #1f2228 !important;
+    box-shadow: 0 0 18px rgba(0,140,255,0.07);
+    transition: .2s;
+}
+
+.card:hover {
+    border-color: #4da3ff;
+    box-shadow: 0 0 24px rgba(77,163,255,0.20);
+}
+
+.card-title {
+    color: #4da3ff;
+}
+
+.text-muted {
+    color: #9aa4b1 !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(77,163,255,0.55);
+    box-shadow:
+        0 0 10px rgba(77,163,255,0.35),
+        0 0 22px rgba(77,163,255,0.25);
+}
+
+thead tr {
+    background: #161b20;
+}
+
+th {
+    padding: 13px;
+    text-align: left;
+    font-size: 14px;
+    color: #4da3ff;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+tbody tr {
+    background: #12151a;
+    border-bottom: 1px solid #242a31;
+    transition: .2s;
+}
+
+tbody tr:hover {
+    background: #1a1f26;
+    box-shadow: inset 0 0 8px rgba(77,163,255,0.25);
+}
+
+td {
+    padding: 12px;
+    font-size: 14px;
+    color: #d5d8dd;
+}
+
+.entrada {
+    color: #4ade80;
+    font-weight: 600;
+}
+
+.saida {
+    color: #f87171;
+    font-weight: 600;
+}
+
+.text-muted {
+    text-align: center;
+    color: #8b94a1 !important;
+    margin-top: 15px;
+}
+
+.card-body h4 {
+    color: #cce6ff !important;    
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(77,163,255,0.45);
+}

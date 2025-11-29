@@ -1,0 +1,181 @@
+/* 
+    UMC - Universidade Mogi Das Cruzes
+    Author     : Danilo zaghi curan RGM: 11241104139
+                 Lucas Flamini Santos RGM: 11241104080
+                 Raynan Maciel Oliveira RGM: 11241101964
+
+    Professor: Adilson Lima da Silva
+
+    Projeto: SIV - Sistema Integrado de Vendas
+                 
+*/
+
+
+
+body {
+    background: linear-gradient(145deg, #0b0f19, #0a0d16, #0d111c);
+    background-size: 400% 400%;
+    animation: bgMove 16s infinite ease-in-out;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.login-box {
+    width: 430px;
+    padding: 45px;
+    border-radius: 15px;
+    background: rgba(17, 24, 39, 0.85);
+    backdrop-filter: blur(8px);
+    border: 2px solid #3b82f6;
+    box-shadow:
+        0 0 14px #3b82f6,
+        0 0 30px rgba(59,130,246,0.30),
+        inset 0 0 18px rgba(59,130,246,0.25);
+}
+
+.brand-title {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #60a5fa, #3b82f6, #93c5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+        0 0 18px rgba(59,130,246,0.65),
+        0 0 35px rgba(59,130,246,0.35);
+    animation: glowPulse 3.5s infinite ease-in-out;
+}
+
+@keyframes glowPulse {
+    0% { text-shadow: 0 0 14px rgba(59,130,246,0.75); }
+    50% { text-shadow: 0 0 28px rgba(59,130,246,1); }
+    100% { text-shadow: 0 0 14px rgba(59,130,246,0.75); }
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+    color: #9fb3ce;
+    text-shadow: 0 0 6px rgba(94,129,172,0.35);
+}
+
+.input-group { margin-bottom: 22px; }
+.input-group label {
+    font-size: 14px;
+    color: #a8b3c7;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #3b82f6;
+    background: #e6edff;
+    color: #0f172a;
+    box-shadow:
+        inset 0 0 6px rgba(59,130,246,0.35),
+        0 0 4px rgba(59,130,246,0.2);
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow:
+        0 0 12px #3b82f6,
+        0 0 22px rgba(59,130,246,0.55),
+        inset 0 0 8px rgba(59,130,246,0.5);
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #1e40af, #2563eb, #3b82f6);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: .5px;
+    box-shadow:
+        0 0 14px #3b82f6,
+        0 0 26px rgba(59,130,246,0.45),
+        inset 0 0 12px rgba(255,255,255,0.15);
+    transition: .25s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #3b82f6, #60a5fa, #93c5fd);
+    box-shadow:
+        0 0 22px #60a5fa,
+        0 0 45px rgba(96,165,250,0.7);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #7c8599;
+}
+
+.logo-box {
+    position: relative;
+    z-index: 9999;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.alert-erro {
+    background: rgba(255, 0, 0, 0.15);
+    color: #ff8a8a;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.bolha {
+    position: fixed;
+    width: 650px;
+    height: 650px;
+    background: rgba(59,130,246,0.18); 
+    border-radius: 50%;
+    filter: blur(220px);
+    z-index: -1;
+    top: 10%;
+    left: 20%;
+    animation: bolhaMove 12s ease-in-out infinite;
+}
+
+@keyframes bolhaMove {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(420px, 180px) scale(1.15);
+    }
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+

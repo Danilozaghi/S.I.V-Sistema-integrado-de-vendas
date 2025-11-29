@@ -1,0 +1,131 @@
+/* 
+    UMC - Universidade Mogi Das Cruzes
+    Author     : Danilo zaghi curan RGM: 11241104139
+                 Lucas Flamini Santos RGM: 11241104080
+                 Raynan Maciel Oliveira RGM: 11241101964
+
+    Professor: Adilson Lima da Silva
+
+    Projeto: SIV - Sistema Integrado de Vendas
+                 
+*/
+
+
+
+body {
+    background: #0d0f12;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #e6e8eb;
+}
+
+.container {
+    background: #14171c;
+    padding: 40px 45px;
+    border-radius: 12px;
+    width: 900px;
+    border: 1px solid #1f2228;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.08);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #4da3ff;
+    letter-spacing: 0.5px;
+    text-shadow:
+        0 0 8px rgba(77,163,255,0.45),
+        0 0 15px rgba(77,163,255,0.25);
+}
+
+label {
+    font-size: 14px;
+    color: #aeb4bb;
+    margin-bottom: 6px;
+    display: block;
+}
+
+input,
+select {
+    width: 100%;
+    background: #0d0f12;
+    border: 1px solid #2a2e34;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #e2e6eb;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus {
+    border-color: #4da3ff;
+    box-shadow: 0 0 6px rgba(77, 163, 255, 0.45);
+}
+
+button,
+.btn-secondary {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+button.btn-primary,
+button[type="submit"] {
+    background: #4da3ff;
+    color: #0c0f13;
+    box-shadow: 0 0 6px rgba(77,163,255,0.25);
+}
+
+button.btn-primary:hover,
+button[type="submit"]:hover {
+    background: #6ab3ff;
+    box-shadow: 0 0 10px rgba(77,163,255,0.55);
+}
+
+.btn-secondary {
+    background: #262b32;
+    color: #d8d8d8;
+}
+
+.btn-secondary:hover {
+    background: #30363d;
+    color: #4da3ff;
+}
+
+.btn-link {
+    color: #9aa2ac;
+}
+
+.btn-link:hover {
+    color: #4da3ff;
+    text-shadow: 0 0 6px rgba(77,163,255,0.45);
+}
+
+form .col-md-4,
+form .col-12 {
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #14171c !important;
+    border: 1px solid #1f2228 !important;
+}
+
+.form-control,
+.form-select {
+    background: #0d0f12 !important;
+    border: 1px solid #2a2e34 !important;
+    color: #e2e6eb !important;
+}

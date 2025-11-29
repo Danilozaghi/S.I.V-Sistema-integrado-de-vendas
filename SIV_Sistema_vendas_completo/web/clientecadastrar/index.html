@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Clientes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+  <link href="../style_css/geral2.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro de Clientes</h2>  
+    <form action="../SalvarImagem" method="post" enctype="multipart/form-data">     
+      <label for="id">Identificador:</label>
+      <input type="text" id="id" name="ident" required>
+      <label for="cliente">Nome do Cliente:</label>
+      <input type="text" id="cliente" name="cliente" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>   
+      <label for="renda">Renda</label>
+      <input type="number" id="renda" name="renda" step="0.01" required>
+      <label for="celular">Celular:</label>
+      <input type="text" id="celular" name="celular" required>        
+      <label for="nasc">Data Nascimento:</label>
+      <input type="date" id="nasc" name="nascimento" required>        
+      
+      <br>Foto: <input type="file" name="img">
+      
+      <div><br></div>
+          
+      <div class="buttons">
+        <button type="submit" class="submit-btn">Cadastrar</button>
+        <button type="reset" class="reset-btn">Limpar</button>
+      </div>
+    </form>
+    
+    <p> <button onclick="document.location='../'" class="voltar-btn">Voltar</button> </p>
+        
+  </div>
+</body>
+</html>

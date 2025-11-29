@@ -1,0 +1,123 @@
+/* 
+    UMC - Universidade Mogi Das Cruzes
+    Author     : Danilo zaghi curan RGM: 11241104139
+                 Lucas Flamini Santos RGM: 11241104080
+                 Raynan Maciel Oliveira RGM: 11241101964
+
+    Professor: Adilson Lima da Silva
+
+    Projeto: SIV - Sistema Integrado de Vendas               
+*/
+
+
+
+body {
+    background: #0d0f12;
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    color: #e6e8eb;
+}
+
+.container {
+    background: #14171c;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    border: 1px solid #1f2228;
+    box-shadow:
+        0 0 25px rgba(0, 140, 255, 0.08),
+        0 0 45px rgba(0, 140, 255, 0.05);
+}
+
+h2 {
+    margin-bottom: 22px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4da3ff;
+    text-shadow:
+        0 0 8px rgba(77,163,255,0.45),
+        0 0 14px rgba(77,163,255,0.25);
+}
+
+label {
+    font-size: 15px;
+    color: #aeb4bb;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-control {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #2a3038 !important;
+    transition: 0.25s ease !important;
+}
+
+.form-control:focus {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #4da3ff !important;
+    box-shadow:
+        0 0 8px rgba(77,163,255,0.5),
+        0 0 16px rgba(77,163,255,0.4) !important;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+
+
+.btn-primary {
+    background: #4da3ff !important;
+    border: none !important;
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .25s;
+    color: #0c0f13 !important;
+    box-shadow: 0 0 10px rgba(77,163,255,0.40);
+}
+
+.btn-primary:hover {
+    background: #6ab3ff !important;
+    box-shadow: 0 0 14px rgba(77,163,255,0.55);
+}
+
+.btn-outline-secondary {
+    border: 1px solid #3b3f45 !important;
+    color: #b4b9c2 !important;
+    background: transparent !important;
+}
+
+.btn-outline-secondary:hover {
+    border-color: #4da3ff !important;
+    color: #4da3ff !important;
+    box-shadow: 0 0 10px rgba(77,163,255,0.30);
+}
+
+.btn-link {
+    color: #8a93a3 !important;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.btn-link:hover {
+    color: #4da3ff !important;
+    text-shadow: 0 0 6px rgba(77,163,255,0.45);
+}
+
+.card {
+    background: #14171c;
+    border: 1px solid #1f2228;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,140,255,0.05);
+}
+
+.card-body {
+    padding: 35px;
+}

@@ -1,0 +1,118 @@
+/* 
+    UMC - Universidade Mogi Das Cruzes
+    Author     : Danilo zaghi curan RGM: 11241104139
+                 Lucas Flamini Santos RGM: 11241104080
+                 Raynan Maciel Oliveira RGM: 11241101964
+
+    Professor: Adilson Lima da Silva
+
+    Projeto: SIV - Sistema Integrado de Vendas
+                 
+*/
+
+
+body {
+    background: #0d0f12;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+    color: #e6e8eb;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;                 
+    background: #14171c;
+    padding: 40px 45px;
+    border-radius: 12px;
+    border: 1px solid #1f2228;
+    box-shadow:
+        0 0 25px rgba(0, 140, 255, 0.08),
+        0 0 45px rgba(0, 140, 255, 0.05);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4da3ff;
+    text-shadow:
+        0 0 8px rgba(77,163,255,0.45),
+        0 0 14px rgba(77,163,255,0.25);
+    margin: 0;
+}
+
+.btn-primary {
+    background: #4da3ff !important;
+    border: none;
+    padding: 9px 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #0c0f13 !important;
+    box-shadow: 0 0 10px rgba(77,163,255,0.40);
+    transition: .25s;
+}
+
+.btn-primary:hover {
+    background: #6ab3ff !important;
+    box-shadow: 0 0 14px rgba(77,163,255,0.55);
+}
+
+.btn-outline-secondary {
+    border: 1px solid #2a2e34 !important;
+    background: #1a1d21 !important;
+    color: #c8ccd3 !important;
+}
+
+.btn-outline-secondary:hover {
+    border-color: #4da3ff !important;
+    color: #4da3ff !important;
+}
+
+.card,
+.card-body {
+    background: #14171c !important;
+}
+
+.card {
+    border: 1px solid #1f2228 !important;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.08) !important;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #0d0f12;
+    border: 1px solid #1f2228;
+}
+
+.tabela thead {
+    background: #13171d;
+}
+
+.tabela thead th {
+    padding: 14px 12px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4da3ff;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #1f2228;
+    text-shadow: 0 0 6px rgba(77,163,255,0.45);
+}
+
+.tabela tbody tr {
+    transition: .25s;
+}
+
+.tabela tbody tr:hover {
+    background: rgba(77,163,255,0.08);
+}
+
+.tabela tbody td {
+    padding: 12px 15px;
+    color: #d0d4d9;
+    border-bottom: 1px solid #1f2228;
+}
+
